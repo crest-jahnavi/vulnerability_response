@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_sec_int_impl">
+    <sn_sec_int_impl action="DELETE">
+        <active>true</active>
+        <integration display_value="CVRF Solution Integration">2bc813fb07713010568cffa08c1ed0e5</integration>
+        <is_default>false</is_default>
+        <name>CISCO - OAUTH 4</name>
+        <sys_class_name>sn_sec_int_impl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 10:33:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>dc1374510706b010568cffa08c1ed029</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CISCO - OAUTH 4</sys_name>
+        <sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope>
+        <sys_update_name>sn_sec_int_impl_dc1374510706b010568cffa08c1ed029</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 10:33:00</sys_updated_on>
+        <validation_status>unvalidated</validation_status>
+    </sn_sec_int_impl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</application>
+        <file_path/>
+        <instance_id>f6b107291be7a810e84d2f8dee4bcbf0</instance_id>
+        <instance_name>dev111968</instance_name>
+        <name>sn_sec_int_impl_dc1374510706b010568cffa08c1ed029</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_sec_int_impl"><sn_sec_int_impl action="INSERT_OR_UPDATE"><active>true</active><integration display_value="CVRF Solution Integration">2bc813fb07713010568cffa08c1ed0e5</integration><is_default>false</is_default><name>CISCO - OAUTH 4</name><sys_class_name>sn_sec_int_impl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-17 10:33:00</sys_created_on><sys_domain>global</sys_domain><sys_id>dc1374510706b010568cffa08c1ed029</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CISCO - OAUTH 4</sys_name><sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package><sys_policy/><sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope><sys_update_name>sn_sec_int_impl_dc1374510706b010568cffa08c1ed029</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-17 10:33:00</sys_updated_on><validation_status>unvalidated</validation_status></sn_sec_int_impl></record_update>]]></payload>
+        <payload_hash>870953937</payload_hash>
+        <record_name>CISCO - OAUTH 4</record_name>
+        <reverted_from/>
+        <source>6a66733707f13010568cffa08c1ed0ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 10:33:00</sys_created_on>
+        <sys_id>941338510706b010568cffa08c1ed0fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b53abea810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 10:33:00</sys_updated_on>
+        <type>Integration Instance</type>
+        <update_guid>dc133851a306b010d83ef00f36a11ffa</update_guid>
+        <update_guid_history>dc133851a306b010d83ef00f36a11ffa:870953937</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CISCO - OAUTH 4">c244bc910706b010568cffa08c1ed06a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 10:38:19</sys_created_on>
+        <sys_db_object display_value="" name="sn_sec_int_impl">sn_sec_int_impl</sys_db_object>
+        <sys_id>867db12d4fc841f08ca64ad3ce443100</sys_id>
+        <sys_metadata>dc1374510706b010568cffa08c1ed029</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CISCO - OAUTH 4</sys_name>
+        <sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope>
+        <sys_scope_delete display_value="">3e71da53962b400aacf1b36d1de0b224</sys_scope_delete>
+        <sys_update_name>sn_sec_int_impl_dc1374510706b010568cffa08c1ed029</sys_update_name>
+        <sys_update_version display_value="sn_sec_int_impl_dc1374510706b010568cffa08c1ed029">941338510706b010568cffa08c1ed0fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 10:38:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

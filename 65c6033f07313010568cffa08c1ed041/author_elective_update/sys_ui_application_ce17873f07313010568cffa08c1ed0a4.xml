@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>CVRF REST Configuration</name>
+        <order/>
+        <roles>x_440354_cvrf_inte.cvrf_configuration_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-13 05:28:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ce17873f07313010568cffa08c1ed0a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CVRF REST Configuration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope>
+        <sys_update_name>sys_ui_application_ce17873f07313010568cffa08c1ed0a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-13 05:28:51</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</application>
+        <file_path/>
+        <instance_id>f6b107291be7a810e84d2f8dee4bcbf0</instance_id>
+        <instance_name>dev111968</instance_name>
+        <name>sys_ui_application_ce17873f07313010568cffa08c1ed0a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>CVRF REST Configuration</name><order/><roles>x_440354_cvrf_inte.cvrf_configuration_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-13 05:28:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ce17873f07313010568cffa08c1ed0a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CVRF REST Configuration</sys_name><sys_overrides/><sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package><sys_policy/><sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope><sys_update_name>sys_ui_application_ce17873f07313010568cffa08c1ed0a4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-13 05:28:51</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>2052759511</payload_hash>
+        <record_name>CVRF REST Configuration</record_name>
+        <reverted_from/>
+        <source>a9c6033f07313010568cffa08c1ed043</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-13 05:28:51</sys_created_on>
+        <sys_id>0a17873f07313010568cffa08c1ed0a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b3dfc06010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-13 05:28:51</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>4217873f2a3130101c2c150a091bc6a7</update_guid>
+        <update_guid_history>4217873f2a3130101c2c150a091bc6a7:2052759511</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-13 05:39:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>56f552bc86f040349dfd27fe1ba4a4c9</sys_id>
+        <sys_metadata>ce17873f07313010568cffa08c1ed0a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CVRF REST Configuration</sys_name>
+        <sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope>
+        <sys_scope_delete display_value="">3e71da53962b400aacf1b36d1de0b224</sys_scope_delete>
+        <sys_update_name>sys_ui_application_ce17873f07313010568cffa08c1ed0a4</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_ce17873f07313010568cffa08c1ed0a4">0a17873f07313010568cffa08c1ed0a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-13 05:39:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

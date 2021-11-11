@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_sec_int_impl">
+    <sn_sec_int_impl action="DELETE">
+        <active>true</active>
+        <integration display_value="CVRF Solution Integration">2bc813fb07713010568cffa08c1ed0e5</integration>
+        <is_default>false</is_default>
+        <name>CISCO - XML</name>
+        <sys_class_name>sn_sec_int_impl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-13 08:14:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2aecaffb07b13010568cffa08c1ed0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CISCO - XML</sys_name>
+        <sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope>
+        <sys_update_name>sn_sec_int_impl_2aecaffb07b13010568cffa08c1ed0cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-13 08:14:06</sys_updated_on>
+        <validation_status>unvalidated</validation_status>
+    </sn_sec_int_impl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</application>
+        <file_path/>
+        <instance_id>f6b107291be7a810e84d2f8dee4bcbf0</instance_id>
+        <instance_name>dev111968</instance_name>
+        <name>sn_sec_int_impl_2aecaffb07b13010568cffa08c1ed0cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_sec_int_impl"><sn_sec_int_impl action="INSERT_OR_UPDATE"><active>true</active><integration display_value="CVRF Solution Integration">2bc813fb07713010568cffa08c1ed0e5</integration><is_default>false</is_default><name>CISCO - XML</name><sys_class_name>sn_sec_int_impl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-13 08:14:06</sys_created_on><sys_domain>global</sys_domain><sys_id>2aecaffb07b13010568cffa08c1ed0cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CISCO - XML</sys_name><sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package><sys_policy/><sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope><sys_update_name>sn_sec_int_impl_2aecaffb07b13010568cffa08c1ed0cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-13 08:14:06</sys_updated_on><validation_status>unvalidated</validation_status></sn_sec_int_impl></record_update>]]></payload>
+        <payload_hash>522098897</payload_hash>
+        <record_name>CISCO - XML</record_name>
+        <reverted_from/>
+        <source>e332aa6107fd3010568cffa08c1ed075</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-13 08:14:07</sys_created_on>
+        <sys_id>72ece33f07b13010568cffa08c1ed086</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b3e93516e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-13 08:14:07</sys_updated_on>
+        <type>Integration Instance</type>
+        <update_guid>baece33fa7b130109db44d5b79a17685</update_guid>
+        <update_guid_history>baece33fa7b130109db44d5b79a17685:522098897</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CISCO - XML">70d20da50742f010568cffa08c1ed037</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 06:20:20</sys_created_on>
+        <sys_db_object display_value="" name="sn_sec_int_impl">sn_sec_int_impl</sys_db_object>
+        <sys_id>119c360e1235484a9aec92d6cbfc2aa4</sys_id>
+        <sys_metadata>2aecaffb07b13010568cffa08c1ed0cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CISCO - XML</sys_name>
+        <sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope>
+        <sys_scope_delete display_value="">3e71da53962b400aacf1b36d1de0b224</sys_scope_delete>
+        <sys_update_name>sn_sec_int_impl_2aecaffb07b13010568cffa08c1ed0cb</sys_update_name>
+        <sys_update_version display_value="sn_sec_int_impl_2aecaffb07b13010568cffa08c1ed0cb">72ece33f07b13010568cffa08c1ed086</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 06:20:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>TypeFieldOnChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var authType = g_form.getValue('authentication_type');
+	var Type = g_form.getValue('type');
+	var authFields = {
+		"BASIC_AUTH": [
+			/*"basic_auth_credential_name",
+			"basic_auth_credential_name.user_name",
+			"basic_auth_credential_name.password"*/
+			"user_name",
+			"password",
+			//"authentication_endpoint"
+		],
+		"OAUTH_2.0": [
+			/*"client_secret_key",
+			"client_id",
+			"token_url",
+			"redirect_url",
+			"authorization_url",
+			"authentication_endpoint"*/
+			"oauth_profile",
+			"oauth_provider"
+		],
+		"NO_AUTH":[
+			"name",
+			"authentication_type",
+			"solution_endpoint",
+			"start_date",
+			"end_date"
+		]
+	};
+	var actionOnFields = {
+		hide: [],
+		show: []
+	};
+	if (Type == "API_BASED"){
+	if (authType == "NO_AUTH") {
+		actionOnFields.hide = authFields["BASIC_AUTH"].concat(authFields["OAUTH_2.0"]);
+	} else if (authType == "BASIC_AUTH") {
+		actionOnFields.hide = authFields["OAUTH_2.0"];
+		actionOnFields.show = authFields["BASIC_AUTH"];
+	} else if (authType == "OAUTH_2.0") {
+		actionOnFields.hide = authFields["BASIC_AUTH"];
+		actionOnFields.show = authFields["OAUTH_2.0"];
+	}
+		actionOnFields.show = actionOnFields.show.concat(authFields["NO_AUTH"]);
+	}else{
+		actionOnFields.hide = authFields["BASIC_AUTH"].concat(authFields["OAUTH_2.0"]).concat(authFields["NO_AUTH"]);
+		
+	}
+
+
+
+	actionOnFields.hide.forEach(function (field) {
+		g_form.setMandatory(field, false);
+		g_form.setDisplay(field, false);
+	});
+
+	actionOnFields.show.forEach(function (field) {
+		g_form.setMandatory(field, true);
+		g_form.setDisplay(field, true);
+	});
+
+
+
+	var sections = g_form.getSections().forEach(function (section) {
+		if (section.id == 'section-1d6a47ff07313010568cffa08c1ed0b5' && authType == "BASIC_AUTH" && Type != "FILE_UPLOAD")
+			section.style.display = 'block';
+		else if (section.id == 'section-196a47ff07313010568cffa08c1ed0b6' && authType == "OAUTH_2.0" && Type != "FILE_UPLOAD")
+			section.style.display = 'block';
+		else if (section.id == 'section-1d6a47ff07313010568cffa08c1ed0b5' || section.id == 'section-196a47ff07313010568cffa08c1ed0b6')
+			section.style.display = 'none';
+
+	});
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 12:17:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>87241ee90746f010568cffa08c1ed01f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>TypeFieldOnChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope>
+        <sys_update_name>sys_script_client_87241ee90746f010568cffa08c1ed01f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 12:45:33</sys_updated_on>
+        <table>x_440354_cvrf_inte_cvrf_configuration</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_sec_int_impl_config">
+    <sn_sec_int_impl_config action="DELETE">
+        <configuration display_value="solution_endpoint">11bc5bbf07713010568cffa08c1ed081</configuration>
+        <implementation display_value="Oracle">614fbc610742f010568cffa08c1ed058</implementation>
+        <password_value/>
+        <sys_class_name>sn_sec_int_impl_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 06:04:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b94f38e10742f010568cffa08c1ed05c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope>
+        <sys_update_name>sn_sec_int_impl_config_b94f38e10742f010568cffa08c1ed05c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 06:07:49</sys_updated_on>
+        <value>http://4rkz0.mocklab.io/oracle/json</value>
+    </sn_sec_int_impl_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</application>
+        <file_path/>
+        <instance_id>f6b107291be7a810e84d2f8dee4bcbf0</instance_id>
+        <instance_name>dev111968</instance_name>
+        <name>sn_sec_int_impl_config_b94f38e10742f010568cffa08c1ed05c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_sec_int_impl_config"><sn_sec_int_impl_config action="INSERT_OR_UPDATE"><configuration display_value="solution_endpoint">11bc5bbf07713010568cffa08c1ed081</configuration><implementation display_value="Oracle">614fbc610742f010568cffa08c1ed058</implementation><password_value/><sys_class_name>sn_sec_int_impl_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-18 06:04:50</sys_created_on><sys_domain>global</sys_domain><sys_id>b94f38e10742f010568cffa08c1ed05c</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package><sys_policy/><sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope><sys_update_name>sn_sec_int_impl_config_b94f38e10742f010568cffa08c1ed05c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-18 06:07:49</sys_updated_on><value>http://4rkz0.mocklab.io/oracle/json</value></sn_sec_int_impl_config></record_update>]]></payload>
+        <payload_hash>1403916</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6a66733707f13010568cffa08c1ed0ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 06:07:49</sys_created_on>
+        <sys_id>25ff38e10742f010568cffa08c1ed095</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b57df7c710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 06:07:49</sys_updated_on>
+        <type>Integration Instance Parameter</type>
+        <update_guid>6dff38e16342f0106072ccd69b033494</update_guid>
+        <update_guid_history>6dff38e16342f0106072ccd69b033494:1403916,314f38e15a42f01064e166f4409d4e88:563637403,b94f38e17c42f0100d1c709c59f0ed5d:2045293079</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">91d24da50742f010568cffa08c1ed031</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 06:20:22</sys_created_on>
+        <sys_db_object display_value="" name="sn_sec_int_impl_config">sn_sec_int_impl_config</sys_db_object>
+        <sys_id>341b2db9ead04fb0a233aea7826fead1</sys_id>
+        <sys_metadata>b94f38e10742f010568cffa08c1ed05c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope>
+        <sys_scope_delete display_value="">3e71da53962b400aacf1b36d1de0b224</sys_scope_delete>
+        <sys_update_name>sn_sec_int_impl_config_b94f38e10742f010568cffa08c1ed05c</sys_update_name>
+        <sys_update_version display_value="sn_sec_int_impl_config_b94f38e10742f010568cffa08c1ed05c">25ff38e10742f010568cffa08c1ed095</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 06:20:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

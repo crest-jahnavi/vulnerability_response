@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_440354_cvrf_inte.CVRFLogin</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>CVRFLogin</name>
+        <script><![CDATA[var CVRFLogin = Class.create();
+CVRFLogin.prototype = {
+	initialize: function () {
+	},
+
+	login: function (base_url, username, password, auth_type) {
+		var response, responseStatus, responseBody, token, message = "";
+		// checking the midserver status
+		try {
+
+			var login = new sn_ws.RESTMessageV2();
+			login.setEndpoint(base_url);
+			//login.setRequestHeader('Content-Type', 'application/json');
+			//login.setRequestHeader('Accept', 'application/json');
+
+			login.setHttpMethod('GET');
+			//login.setBasicAuth(username, password);
+
+
+			//Execute REST message
+			response = login.executeAsync();
+			responseBody = response.getBody();
+			responseStatus = response.getStatusCode();
+
+			//If Success, get token and throw an error otherwise
+			if (responseStatus == 200 || responseStatus == 201) {
+				message = "Successfully authenticated credentials";
+				gs.info("[CVRF] " + message);
+				return {
+					authenticated: true,
+					message: message
+				};
+			} else if (responseStatus == 400) {
+				message = "Bad Response";
+			} else if (responseStatus == 401) {
+				message = "Unauthorized User";
+			} else if (responseStatus == 403) {
+				message = "Forbidden Request";
+			} else if (responseStatus == 404) {
+				message = "Endpoint Not Found";
+			} else {
+				message = "Error while authentication. Response Code: " + responseStatus;
+			}
+			gs.error("[CVRF] " + message);
+			return {
+				authenticated: false,
+				message: message
+			};
+		} catch (ex) {
+			message = 'Exception while login to CVRF';
+			gs.error("[CVRF] " + message + ' :' + ex);
+			return {
+				authenticated: false,
+				message: message
+			};
+		}
+	},
+
+	type: 'CVRFLogin'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-13 05:55:05</sys_created_on>
+        <sys_id>39fc4b7307713010568cffa08c1ed0e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CVRFLogin</sys_name>
+        <sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope>
+        <sys_update_name>sys_script_include_39fc4b7307713010568cffa08c1ed0e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-13 05:55:05</sys_updated_on>
+    </sys_script_include>
+</record_update>

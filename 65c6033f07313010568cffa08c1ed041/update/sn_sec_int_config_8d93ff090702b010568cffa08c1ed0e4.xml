@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_sec_int_config">
+    <sn_sec_int_config action="INSERT_OR_UPDATE">
+        <default_value/>
+        <display_name>CVRF Solution Integration - Start Date</display_name>
+        <elem_type>string</elem_type>
+        <help_text/>
+        <integration display_value="CVRF Solution Integration">2bc813fb07713010568cffa08c1ed0e5</integration>
+        <label>Start Date</label>
+        <mandatory>true</mandatory>
+        <name>start_date</name>
+        <order>100</order>
+        <password_value/>
+        <sys_class_name>sn_sec_int_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 05:55:56</sys_created_on>
+        <sys_id>8d93ff090702b010568cffa08c1ed0e4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>start_date</sys_name>
+        <sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope>
+        <sys_update_name>sn_sec_int_config_8d93ff090702b010568cffa08c1ed0e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 06:51:01</sys_updated_on>
+    </sn_sec_int_config>
+</record_update>

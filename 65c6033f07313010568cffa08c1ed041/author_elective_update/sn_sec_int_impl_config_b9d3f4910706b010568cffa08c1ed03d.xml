@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_sec_int_impl_config">
+    <sn_sec_int_impl_config action="DELETE">
+        <configuration display_value="authenticationType">6ddbdf7f07713010568cffa08c1ed03d</configuration>
+        <implementation display_value="6">f5d3b8510706b010568cffa08c1ed0e7</implementation>
+        <password_value/>
+        <sys_class_name>sn_sec_int_impl_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 10:36:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b9d3f4910706b010568cffa08c1ed03d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope>
+        <sys_update_name>sn_sec_int_impl_config_b9d3f4910706b010568cffa08c1ed03d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 10:36:24</sys_updated_on>
+        <value>NO_AUTH</value>
+    </sn_sec_int_impl_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</application>
+        <file_path/>
+        <instance_id>f6b107291be7a810e84d2f8dee4bcbf0</instance_id>
+        <instance_name>dev111968</instance_name>
+        <name>sn_sec_int_impl_config_b9d3f4910706b010568cffa08c1ed03d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_sec_int_impl_config"><sn_sec_int_impl_config action="INSERT_OR_UPDATE"><configuration display_value="authenticationType">6ddbdf7f07713010568cffa08c1ed03d</configuration><implementation display_value="6">f5d3b8510706b010568cffa08c1ed0e7</implementation><password_value/><sys_class_name>sn_sec_int_impl_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-17 10:36:23</sys_created_on><sys_domain>global</sys_domain><sys_id>b9d3f4910706b010568cffa08c1ed03d</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package><sys_policy/><sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope><sys_update_name>sn_sec_int_impl_config_b9d3f4910706b010568cffa08c1ed03d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-17 10:36:24</sys_updated_on><value>NO_AUTH</value></sn_sec_int_impl_config></record_update>]]></payload>
+        <payload_hash>-1454929896</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6a66733707f13010568cffa08c1ed0ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 10:36:24</sys_created_on>
+        <sys_id>8ed3f4910706b010568cffa08c1ed071</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b53af057f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 10:36:24</sys_updated_on>
+        <type>Integration Instance Parameter</type>
+        <update_guid>02d3f4916206b010e4294a54dbff1765</update_guid>
+        <update_guid_history>02d3f4916206b010e4294a54dbff1765:-1454929896,b9d3f491f706b0104f54caf0f291853e:-988969711</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9a44bc910706b010568cffa08c1ed0c5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 10:38:20</sys_created_on>
+        <sys_db_object display_value="" name="sn_sec_int_impl_config">sn_sec_int_impl_config</sys_db_object>
+        <sys_id>e3fd05695a4d4e349117e7c36425b751</sys_id>
+        <sys_metadata>b9d3f4910706b010568cffa08c1ed03d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CVRF Integration for Security Operations" source="x_440354_cvrf_inte">65c6033f07313010568cffa08c1ed041</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CVRF Integration for Security Operations">65c6033f07313010568cffa08c1ed041</sys_scope>
+        <sys_scope_delete display_value="">3e71da53962b400aacf1b36d1de0b224</sys_scope_delete>
+        <sys_update_name>sn_sec_int_impl_config_b9d3f4910706b010568cffa08c1ed03d</sys_update_name>
+        <sys_update_version display_value="sn_sec_int_impl_config_b9d3f4910706b010568cffa08c1ed03d">8ed3f4910706b010568cffa08c1ed071</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 10:38:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
